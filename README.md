@@ -1,23 +1,23 @@
-🧮 Simple Visit Counter
-Un plugin WordPress semplice, leggero e senza pubblicità per contare le visite dei tuoi post.
+# 🧮 Mio Visit Counter
 
-https://img.shields.io/badge/versione-1.0.0-blue.svg
-https://img.shields.io/badge/licenza-GPLv2-green.svg
-https://img.shields.io/badge/WordPress-5.0%252B-orange.svg
+**Mio Visit Counter** Un plugin WordPress semplice, leggero e senza pubblicità per contare le visite dei tuoi post.
+---
 
-🎯 Descrizione
+## 🎯 Descrizione
 Simple Visit Counter è nato da un'esigenza semplice: avere un contatore visite pulito, senza pubblicità, senza versioni pro, senza tracciamenti esterni. Tutto rimane nel tuo database WordPress, tutto è sotto il tuo controllo.
 
-Perfetto per:
+
+## Perfetto per:
 
 📝 Blogger che vogliono mostrare la popolarità dei propri articoli
 
 👨‍💻 Sviluppatori che cercano una soluzione leggera e personalizzabile
 
 🏢 Siti che non vogliono dipendenze da servizi esterni
+---
 
-✨ Caratteristiche
-Funzionalità	Descrizione
+## ✨ Caratteristiche
+## Funzionalità	Descrizione
 🚀 Leggerissimo	Una sola riga nel database, zero chiamate esterne
 🔒 Privacy by design	Nessun tracciamento, nessun cookie, nessun servizio esterno
 🎨 Personalizzabile	Shortcode flessibile con parametri
@@ -27,18 +27,19 @@ Funzionalità	Descrizione
 🔧 Reset facile	Gli admin possono resettare il contatore con un click
 🌐 Pronto per la cache	Funziona perfettamente con plugin di caching
 📦 Installazione
+---
 
-Metodo 1: Download manuale
+## Metodo 1: Download manuale
 Scarica l'ultima versione da GitHub
 
 Carica la cartella mio-visit-counter in /wp-content/plugins/
 
 Vai in Plugin → Plugin installati e attiva "Mio Visit Counter"
 
-Metodo 2: Da WordPress.org (in arrivo)
+## Metodo 2: Da WordPress.org (in arrivo)
 Prossimamente disponibile direttamente dal repository ufficiale WordPress.
 
-🎮 Utilizzo
+## 🎮 Utilizzo
 Shortcode base
 php
 [visite]
@@ -58,10 +59,9 @@ Messaggio personalizzato se zero visite
 php
 [visite nessun_dato="Sei il primo a leggere questo articolo!"]
 Mostra il messaggio personalizzato se non ci sono ancora visite.
-
-In un template PHP
-```
-php
+---
+## In un template PHP
+'''
 <?php echo do_shortcode('[visite]'); ?>
 Con stile CSS personalizzato
 css
@@ -74,14 +74,12 @@ css
     color: #2c3e50;
     border: 1px solid #e9ecef;
 }
-```
-⚙️ Come funziona
-Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite:
+'''
+---
+## ⚙️ Come funziona
+Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite.
 
-php
-// Ogni visita viene registrata come post_meta
-update_post_meta($post_id, '_svc_visite', $nuove_visite);
-Logica di conteggio
+## Logica di conteggio
 ✅ Controlla che sia un singolo post
 
 ✅ Verifica che non sia un bot/crawler
@@ -105,7 +103,7 @@ Logica di conteggio
 
 ✅ Puoi cancellare tutti i dati semplicemente disattivando il plugin
 
-📊 Screenshot
+## 📊 Screenshot
 Meta box nell'editor
 https://assets/screenshot-1.png
 Il contatore è visibile direttamente nella schermata di modifica del post
@@ -116,6 +114,7 @@ Il contatore mostrato nel post con stile personalizzato
 
 🔧 Per sviluppatori
 Filtri disponibili
+'''
 php
 // Modifica la lista dei bot da ignorare
 add_filter('svc_bot_list', function($bots) {
@@ -138,7 +137,9 @@ Funzioni PHP
 php
 // Ottieni visite di un post via PHP
 $visite = svc_get_visite(123); // Restituisce il numero di visite per il post ID 123
-🐛 Segnalazione problemi
+'''
+---
+## 🐛 Segnalazione problemi
 Se trovi un bug o hai un suggerimento:
 
 Apri una issue su GitHub
@@ -147,8 +148,8 @@ Descrivi il problema (e come riprodurlo)
 
 Indica la versione di WordPress e PHP
 
-📝 Changelog
-1.0.0 - 2024-03-10
+## 📝 Changelog
+1.0.0 - 2026-03-10
 🎉 Prima release pubblica
 
 ✨ Shortcode flessibile con parametri
@@ -161,7 +162,7 @@ Indica la versione di WordPress e PHP
 
 🌐 Supporto multilingua (pronto per traduzioni)
 
-📜 Licenza
+## 📜 Licenza
 GPLv2 o successiva - Questo plugin è software libero. Puoi ridistribuirlo e/o modificarlo secondo i termini della GNU General Public License come pubblicata dalla Free Software Foundation.
 
 👨‍💻 Autore
@@ -191,3 +192,4 @@ Commit delle modifiche (git commit -m 'Add some AmazingFeature')
 Push al branch (git push origin feature/AmazingFeature)
 
 Apri una Pull Request
+
