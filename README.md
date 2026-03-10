@@ -1,7 +1,6 @@
 # 🧮 Mio Visit Counter
 
-**Mio Visit Counter** 
-Un plugin WordPress semplice, leggero e senza pubblicità per contare le visite dei tuoi post.
+**Un plugin WordPress semplice, leggero e senza pubblicità per contare le visite dei tuoi post.**
 ---
 ![Version](https://img.shields.io/badge/versione-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/licenza-GPLv2-green.svg)
