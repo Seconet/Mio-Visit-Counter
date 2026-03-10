@@ -4,7 +4,7 @@
 ---
 ![Version](https://img.shields.io/badge/versione-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/licenza-GPLv2-green.svg)
-![Wordpress](https://img.shields.io/badge/WordPress-5.0%252B-orange.svg)
+![Wordpress](https://img.shields.io/badge/wordPress-6+-blue)
 ---
 
 ## 🎯 Descrizione
