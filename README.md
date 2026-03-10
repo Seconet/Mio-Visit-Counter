@@ -167,13 +167,13 @@ Indica la versione di WordPress e PHP
 ## 📜 Licenza
 GPLv2 o successiva - Questo plugin è software libero. Puoi ridistribuirlo e/o modificarlo secondo i termini della GNU General Public License come pubblicata dalla Free Software Foundation.
 
-👨‍💻 Autore
+## 👨‍💻 Autore:
 Sergio Cornacchione
 
 🌐 www.seconet.it
 
 
-⭐ Supporto il progetto
+# ⭐ Supporto il progetto
 Se il plugin ti è utile:
 
 Lascia una ⭐ su GitHub
@@ -194,4 +194,3 @@ Commit delle modifiche (git commit -m 'Add some AmazingFeature')
 Push al branch (git push origin feature/AmazingFeature)
 
 Apri una Pull Request
-
