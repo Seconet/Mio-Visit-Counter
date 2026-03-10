@@ -1,6 +1,9 @@
 # 🧮 Mio Visit Counter
 
 **Mio Visit Counter** Un plugin WordPress semplice, leggero e senza pubblicità per contare le visite dei tuoi post.
+![Version](https://img.shields.io/badge/versione-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/licenza-GPLv2-green.svg)
+![Wordpress](https://img.shields.io/badge/WordPress-5.0%252B-orange.svg)
 ---
 
 ## 🎯 Descrizione
@@ -107,11 +110,11 @@ Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite.
 
 ## 📊 Screenshot
 Meta box nell'editor
-https://assets/screenshot-1.png
+![MetaBox](assets/screenshot-1.png)
 Il contatore è visibile direttamente nella schermata di modifica del post
 
 Shortcode nel frontend
-https://assets/screenshot-2.png
+![FrontEnd](assets/screenshot-2.png)
 Il contatore mostrato nel post con stile personalizzato
 
 ## 🔧 Per sviluppatori
