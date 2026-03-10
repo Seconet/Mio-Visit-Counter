@@ -9,26 +9,26 @@ Simple Visit Counter è nato da un'esigenza semplice: avere un contatore visite 
 
 ## Perfetto per:
 
-📝 Blogger che vogliono mostrare la popolarità dei propri articoli
+- 📝 Blogger che vogliono mostrare la popolarità dei propri articoli
 
-👨‍💻 Sviluppatori che cercano una soluzione leggera e personalizzabile
+- 👨‍💻 Sviluppatori che cercano una soluzione leggera e personalizzabile
 
-🏢 Siti che non vogliono dipendenze da servizi esterni
+- 🏢 Siti che non vogliono dipendenze da servizi esterni
 ---
 
 ## ✨ Caratteristiche
-## Funzionalità	Descrizione
+- Funzionalità	Descrizione
 
-## 🚀 Leggerissimo	Una sola riga nel database, zero chiamate esterne
-## 🔒 Privacy by design	Nessun tracciamento, nessun cookie, nessun servizio esterno
-## 🎨 Personalizzabile	Shortcode flessibile con parametri
-## 🛡️ Anti-bot	Rilevamento base di crawler e spider
-## 🧠 Anti-refresh	Non conta refresh multipli nella stessa sessione
-## 📊 Meta box	Visualizza le visite direttamente nell'editor
-## 🔧 Reset facile	Gli admin possono resettare il contatore con un click
-## 🌐 Pronto per la cache	Funziona perfettamente con plugin di caching
-## 📦 Installazione
----
+- 🚀 Leggerissimo	Una sola riga nel database, zero chiamate esterne
+- 🔒 Privacy by design	Nessun tracciamento, nessun cookie, nessun servizio esterno
+- 🎨 Personalizzabile	Shortcode flessibile con parametri
+- 🛡️ Anti-bot	Rilevamento base di crawler e spider
+- 🧠 Anti-refresh	Non conta refresh multipli nella stessa sessione
+- 📊 Meta box	Visualizza le visite direttamente nell'editor
+- 🔧 Reset facile	Gli admin possono resettare il contatore con un click
+- 🌐 Pronto per la cache	Funziona perfettamente con plugin di caching
+- 📦 Installazione
+
 
 ## Metodo 1: Download manuale
 Scarica l'ultima versione da GitHub
