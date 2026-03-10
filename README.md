@@ -60,7 +60,8 @@ php
 Mostra il messaggio personalizzato se non ci sono ancora visite.
 
 In un template PHP
-`php
+```
+php
 <?php echo do_shortcode('[visite]'); ?>
 Con stile CSS personalizzato
 css
@@ -72,7 +73,8 @@ css
     font-size: 0.9em;
     color: #2c3e50;
     border: 1px solid #e9ecef;
-}`
+}
+```
 ⚙️ Come funziona
 Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite:
 
