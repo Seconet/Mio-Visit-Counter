@@ -18,15 +18,16 @@ Simple Visit Counter è nato da un'esigenza semplice: avere un contatore visite 
 
 ## ✨ Caratteristiche
 ## Funzionalità	Descrizione
-🚀 Leggerissimo	Una sola riga nel database, zero chiamate esterne
-🔒 Privacy by design	Nessun tracciamento, nessun cookie, nessun servizio esterno
-🎨 Personalizzabile	Shortcode flessibile con parametri
-🛡️ Anti-bot	Rilevamento base di crawler e spider
-🧠 Anti-refresh	Non conta refresh multipli nella stessa sessione
-📊 Meta box	Visualizza le visite direttamente nell'editor
-🔧 Reset facile	Gli admin possono resettare il contatore con un click
-🌐 Pronto per la cache	Funziona perfettamente con plugin di caching
-📦 Installazione
+
+## 🚀 Leggerissimo	Una sola riga nel database, zero chiamate esterne
+## 🔒 Privacy by design	Nessun tracciamento, nessun cookie, nessun servizio esterno
+## 🎨 Personalizzabile	Shortcode flessibile con parametri
+## 🛡️ Anti-bot	Rilevamento base di crawler e spider
+## 🧠 Anti-refresh	Non conta refresh multipli nella stessa sessione
+## 📊 Meta box	Visualizza le visite direttamente nell'editor
+## 🔧 Reset facile	Gli admin possono resettare il contatore con un click
+## 🌐 Pronto per la cache	Funziona perfettamente con plugin di caching
+## 📦 Installazione
 ---
 
 ## Metodo 1: Download manuale
@@ -92,7 +93,7 @@ Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite.
 
 ✅ Salva nel database
 
-🛡️ Privacy e GDPR
+## 🛡️ Privacy e GDPR
 ✅ Nessun dato personale viene raccolto
 
 ✅ Nessun cookie viene impostato
