@@ -56,13 +56,14 @@ php
 [visite mostra_solo_se="100"]
 Mostra il contatore solo se ha superato le 100 visite.
 
-Messaggio personalizzato se zero visite
+
+## Messaggio personalizzato se zero visite
 php
-[visite nessun_dato="Sei il primo a leggere questo articolo!"]
+- [visite nessun_dato="Sei il primo a leggere questo articolo!"]
 Mostra il messaggio personalizzato se non ci sono ancora visite.
 ---
 ## In un template PHP
-'''
+```php
 <?php echo do_shortcode('[visite]'); ?>
 Con stile CSS personalizzato
 css
@@ -75,8 +76,8 @@ css
     color: #2c3e50;
     border: 1px solid #e9ecef;
 }
-'''
----
+```
+
 ## ⚙️ Come funziona
 Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite.
 
@@ -113,9 +114,9 @@ Shortcode nel frontend
 https://assets/screenshot-2.png
 Il contatore mostrato nel post con stile personalizzato
 
-🔧 Per sviluppatori
-Filtri disponibili
-'''
+## 🔧 Per sviluppatori
+- Filtri disponibili
+```php
 php
 // Modifica la lista dei bot da ignorare
 add_filter('svc_bot_list', function($bots) {
@@ -138,7 +139,7 @@ Funzioni PHP
 php
 // Ottieni visite di un post via PHP
 $visite = svc_get_visite(123); // Restituisce il numero di visite per il post ID 123
-'''
+```
 ---
 ## 🐛 Segnalazione problemi
 Se trovi un bug o hai un suggerimento:
