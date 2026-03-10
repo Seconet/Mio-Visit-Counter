@@ -111,11 +111,13 @@ Il plugin utilizza i post meta di WordPress per memorizzare il numero di visite.
 
 ## 📊 Screenshot
 Meta box nell'editor
+---
 ![MetaBox](assets/screenshot-1.png)
 Il contatore è visibile direttamente nella schermata di modifica del post
 
 Shortcode nel frontend
 ![FrontEnd](assets/screenshot-2.png)
+---
 Il contatore mostrato nel post con stile personalizzato
 
 ## 🔧 Per sviluppatori
